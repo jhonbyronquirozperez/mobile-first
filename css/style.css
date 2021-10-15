@@ -24,14 +24,15 @@ header{
     min-width: 320px;
     height: 334px;
     text-align: center;
+    background: linear-gradient(207.8deg, #ea384d 10.89%, #cc2b5e 100%);
 }
 header img{
-    width: 120px;
-    height: 50px;
+    width: 160px;
+    height: 80px;
     margin-top: 60px;
     align-self: center;
 }
-.heade--title-container{
+.header--title-container{
     width: 90%;
     min-width:288px;
     max-width: 900px;
@@ -39,4 +40,42 @@ header img{
     margin-top: 50px;
     text-align: center;
     align-self: center;
+}
+.header--title-container h1{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: whitesmoke;
+}
+.header--title-container{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500px;
+    line-height: 1.8rem;
+    color:rgb(229, 155, 165);
+}
+.header--title-container .header--button{
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: #faf8f7;
+    box-shadow: 0px 4px 8px rgba(89,73,30, 0.30);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.header--button span{
+display: inline-block;
+width: 13px;
+height: 8px;
+margin-left: 10px;
+background-image: url('../assets/icons/down-arrow.svg');
 }
