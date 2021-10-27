@@ -230,13 +230,11 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-
     padding-top: 60px;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color:rgb(250, 237, 237);
-    text-aling: center;
 }
 .main-plans-container{
     width: 100%;
@@ -264,4 +262,80 @@ main{
     font-weight: 500;
     line-height: 1.8rem;
     color: #757575;
+}
+.plans-container--slider{
+   display: flex;
+   height: 316px;
+   overflow-x: scroll;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x proximity;
+   
+}
+.plans-container--card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 65%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 30px 0;
+    padding: 0 15px;
+    background-color: rgb(250, 237, 237);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(58, 45, 8, 0.3);
+}
+
+.recomendado{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    background-color:#b84f5b;
+    border-radius: 8px;
+    color: white;
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.2rem;
+    padding: 6px;
+}
+.plan-card--tittle{
+    padding-top: 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.plan-card--price{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+}
+.plan-card--price span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.plan-card--saving{
+    font-size: 1.2rem;
+    color: #757575;
+}
+.plan-card--ca{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: rgb(250, 237, 237);
+    border: 2px solid #b84f5b;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: black;
+    font-family: 'DM sans',sans-serif;
+}
+.plan-card--ca span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/icons/orange-right-arrow.svg);
+    vertical-align: text-bottom;
 }
